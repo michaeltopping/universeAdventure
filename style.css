@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'LeagueGothic';
+    src: url('./fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.woff') format('woff'); 
+}
+
+
+body {
+    background-color:#eeeeee;
+}
+
+/*Header Styles*/
+.header {
+    margin:0px;
+    padding:40px;
+}
+
+.header h1 {
+    margin:0px;
+    font-family:'LeagueGothic';
+    font-size:42pt
+}
+
+.header:after {
+    content:'';
+    display:block;
+    width:80%;
+    height:3px;
+    background:#990000;
+    margin:0px auto;
+}
+
+
+
+/*Body styles*/
+
+.navigation {
+    width:80%;
+    padding:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.navitem {
+    border-radius: 5px;
+    display:inline-block;
+    width:40%;
+    height:300px;
+    background-color:#cccccc;
+    padding:10px;
+    margin:25px;
+    position:relative;
+}
+
+.navitem h1 {
+    font-family:'LeagueGothic';
+    font-size:24pt;
+}
+
+.navitem:hover {
+    background-color:#bbbbbb;
+    border-bottom:3px solid #990000;
+}
+
+.item-img {
+    border-radius: 5px;
+    background-color:#999999;
+    width:100%;
+    height:70%;
+}
+
+.item-text {
+    position:absolute;
+    bottom:0;
+}
+
+
+
